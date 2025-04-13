@@ -12,7 +12,6 @@ const AnimatedCounter = () => {
               key={counterItems.label}
               className="counter-number text-5xl font-bold mb-2"
             >
-              {item.suffix}
               <CountUp suffix={item.suffix} end={item.value} />
             </div>
             <div className="text-white-50 text-lg">{item.label}</div>
