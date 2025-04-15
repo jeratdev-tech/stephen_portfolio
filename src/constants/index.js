@@ -265,7 +265,7 @@ const socialImgs = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "www.linkedin.com/in/stephen-james-215907322",
     imgPath: "/images/linkedin.png",
   },
 ];
