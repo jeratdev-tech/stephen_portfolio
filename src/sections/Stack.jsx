@@ -6,7 +6,7 @@ import TechIconCardExperience from "../components/models/tech_logos/TechIconCard
 import { techStackIcons } from "../constants";
 // import { techStackImgs } from "../constants";
 
-const TechStack = () => {
+const Stack = () => {
   useGSAP(() => {
     gsap.fromTo(
       ".tech-card",
@@ -61,4 +61,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack;
+export default Stack;
