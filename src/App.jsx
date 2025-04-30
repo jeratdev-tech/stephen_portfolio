@@ -4,11 +4,10 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoSection from "./components/LogoSection";
 import FeatureCards from "./sections/FeatureCards";
 import ExperienceSection from "./sections/ExperienceSection";
-
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-import Stack from "./sections/Stack";
+import TechStack from "./sections/TechStack";
 
 const App = () => {
   return (
@@ -19,7 +18,7 @@ const App = () => {
       <LogoSection />
       <FeatureCards />
       <ExperienceSection />
-      <Stack />
+      {/* <TechStack /> */}
       <Testimonials />
       <Contact />
       <Footer />
