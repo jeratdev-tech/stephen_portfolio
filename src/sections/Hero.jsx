@@ -67,7 +67,7 @@ const Hero = () => {
             <img
               src="./images/bg-o.png"
               alt="background"
-              class="hidden lg:block w-5xl rounded-b-[100px]"
+              class="hidden lg:block w-3xl rounded-b-[100px]"
             />
             {/* <div className="hidden md:flex flex-col w-full bg-red-500 pt-96 items-center">
             </div> */}
