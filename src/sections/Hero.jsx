@@ -62,15 +62,15 @@ const Hero = () => {
         </header>
 
         <figure>
-          <div className="hero-3d-layout">
+          <div className=" hero-3d-layout flex justify-center items-center">
             {/* <HeroExperiance /> */}
-            <div className="hidden md:flex flex-col w-full items-center">
-              <img
-                src="./images/background.png"
-                alt="background"
-                className="w-120"
-              />
-            </div>
+            <img
+              src="./images/bg-o.png"
+              alt="background"
+              class="hidden lg:block w-5xl rounded-b-[100px]"
+            />
+            {/* <div className="hidden md:flex flex-col w-full bg-red-500 pt-96 items-center">
+            </div> */}
           </div>
         </figure>
       </div>
