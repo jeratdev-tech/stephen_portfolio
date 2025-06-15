@@ -9,7 +9,7 @@ const ShowcaseSection = () => {
   const sectionRef = useRef(null);
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
+  const wixcommerceRef = useRef(null);
 
   useGSAP(() => {
     // Animation for the main section
@@ -20,7 +20,7 @@ const ShowcaseSection = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [rydeRef.current, libraryRef.current, wixcommerceRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -74,11 +74,11 @@ const ShowcaseSection = () => {
               <h2>The Library Management Platform</h2>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={wixcommerceRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt=" wixcommerce" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>A wix E Commerce Platform</h2>
             </div>
           </div>
         </div>

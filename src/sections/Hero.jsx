@@ -63,14 +63,11 @@ const Hero = () => {
 
         <figure>
           <div className=" hero-3d-layout flex justify-center items-center">
-            {/* <HeroExperiance /> */}
             <img
               src="./images/bg-o.png"
               alt="background"
               class="hidden lg:block w-3xl rounded-b-[100px]"
             />
-            {/* <div className="hidden md:flex flex-col w-full bg-red-500 pt-96 items-center">
-            </div> */}
           </div>
         </figure>
       </div>
