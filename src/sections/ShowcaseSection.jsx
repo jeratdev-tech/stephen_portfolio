@@ -78,7 +78,7 @@ const ShowcaseSection = () => {
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt=" wixcommerce" />
               </div>
-              <h2>A wix E Commerce Platform</h2>
+              <h2>A wix e Commerce Platform</h2>
             </div>
           </div>
         </div>

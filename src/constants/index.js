@@ -255,7 +255,7 @@ const socialImgs = [
   },
   {
     name: "fb",
-    url: "https://www.facebook.com/",
+    url: "https://web.facebook.com/stephen.jerat.2025",
     imgPath: "/images/fb.png",
   },
   {
