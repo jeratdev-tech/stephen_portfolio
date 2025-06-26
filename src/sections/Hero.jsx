@@ -61,7 +61,7 @@ const Hero = () => {
           </div>
         </header>
 
-        <figure>
+        {/* <figure>
           <div className=" hero-3d-layout flex justify-center items-center">
             <img
               src="./images/bg-o.png"
@@ -69,7 +69,7 @@ const Hero = () => {
               class="hidden lg:block w-3xl rounded-b-[100px]"
             />
           </div>
-        </figure>
+        </figure> */}
       </div>
       <AnimatedCounter />
     </section>
