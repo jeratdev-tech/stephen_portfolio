@@ -36,11 +36,11 @@ const Stack = () => {
           title="How I Can Contribute & My Key Skills"
           sub="🤝 What I Bring to the Table"
         />
-        <div className="tech-grid flex-center">
+        <div className="tech-grid">
           {techStackIcons.map((techStackIcon) => (
             <div
               key={techStackIcon.name}
-              className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
+              className="card-border tech-card overflow-hidden group rounded-xl md:rounded-2xl xl:rounded-full"
             >
               <div className="tech-card-animated-bg" />
               <div className="tech-card-content">
@@ -48,8 +48,10 @@ const Stack = () => {
                   <TechIconCardExperience model={techStackIcon} />
                 </div>
 
-                <div className="padding-x w-full">
-                  <p>{techStackIcon.name}</p>
+                <div className="px-4 md:px-6 w-full text-center">
+                  <p className="text-sm md:text-base lg:text-lg font-medium text-white-50 group-hover:text-white transition-colors duration-300">
+                    {techStackIcon.name}
+                  </p>
                 </div>
               </div>
             </div>
