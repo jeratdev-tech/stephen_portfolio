@@ -36,7 +36,7 @@ const Stack = () => {
           title="How I Can Contribute & My Key Skills"
           sub="🤝 What I Bring to the Table"
         />
-        <div className="tech-grid">
+        <div className="tech-grid flex-center">
           {techStackIcons.map((techStackIcon) => (
             <div
               key={techStackIcon.name}
