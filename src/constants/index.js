@@ -247,13 +247,18 @@ const socialImgs = [
   },
   {
     name: "x",
-    url: "https://www.x.com/",
+    url: "https://x.com/Stephen_jerat",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
-    url: "www.linkedin.com/in/stephen-james-215907322",
+    url: "https://www.linkedin.com/in/stephen-james-215907322",
     imgPath: "/images/linkedin.png",
+  },
+  {
+    name: "github",
+    url: "https://github.com/jeratdev-tech",
+    imgPath: "/images/logos/git.svg",
   },
 ];
 
